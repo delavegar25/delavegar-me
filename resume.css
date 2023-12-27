@@ -353,6 +353,9 @@ template {
 body{
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #000;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -360,16 +363,17 @@ a {
   text-decoration: none;
 }
 
-
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .projects-section {
   font-size: 20px;
   font-weight: 600;
   color: #f1f1f1;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 20px;
+  margin: 2.5rem;
   cursor: pointer;
 }
 
@@ -390,11 +394,9 @@ a {
   font-size: 20px;
   font-weight: 600;
   color: #f1f1f1;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin: 2.5rem;
   cursor: pointer;
-  margin: 20px;
+  display: inline-block;
 }
 
 .contact-me-section:hover {
@@ -411,12 +413,12 @@ a {
 
 
 .socials {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: -7.4rem;
-  padding: 30px;
-  margin-left: 36.3rem;
+  padding: 0;
+  margin: 0;
+  margin-right: 17.3rem;
 }
 
 .github-socials {
@@ -486,21 +488,16 @@ h1{
 }
 
 
-.rocket {
-  font-size: 50px;
-  margin-left: 20%;
-}
-
-
 .about-section{
   background: #000;
   border: 30px solid #000;
   border-radius: 12px;
   width: 50%;
   height: 240px;
-  margin-left: 20rem;
+  margin-left: 16.4rem;
   margin-top: 5.5rem;
   outline: 2px solid #b5b5b5;
+  display: inline-flex;
 }
 
 .name-section {
@@ -517,10 +514,11 @@ h1{
 
 
 .skills{
-   display: flex;
+   display: grid;
+   align-items: center;
    justify-content: center;
    align-items: center;
-   padding: 40px;
+   padding: 10px;
 }
 
 .skills-0 {
@@ -533,15 +531,16 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: .4%;
   padding-left: 30%;
+  margin-right: 22.5rem;
 }
 
 .javascript-icon svg{
   border-radius: 8px;
   background: #333333;
   outline: 2px solid #b5b5b5;
-  margin-left: -520px;
+  margin: .98rem;
 }
 
 
@@ -549,14 +548,14 @@ h1{
   border-radius: 8px;
   background: #333333;
   outline: 2px solid #b5b5b5;
-  margin-left: -420px;
+  margin: 0.26rem;
 }
 
 .python-icon svg{
   border-radius: 8px;
   background: #333333;
   outline: 2px solid #b5b5b5;
-  margin-left: -320px;
+  margin: 0.54rem;
 }
 
 
@@ -564,14 +563,14 @@ h1{
   border-radius: 8px;
   background: #333333;
   outline: 2px solid #b5b5b5;
-  margin-left: -210px;
+  margin: 0.75rem;
 }
 
 .vue-icon {
   border-radius: 8px;
   background: #333333;
   outline: 2px solid #b5b5b5;
-  margin-left: -110px;
+  margin: 0.77rem;
 }
 
 .project-0 {
@@ -659,9 +658,7 @@ h1{
   cursor: pointer;
   transition: all 5s ease-in-out;
   overflow: hidden;
-  margin-left: 28.3rem;
-  margin-bottom: 1.4rem;
-  margin-top: -21.3rem;
+  margin: 2rem;
 }
 
 .project-card-1:focus {
@@ -703,44 +700,8 @@ h1{
   line-height: 110%;
 }
 
-.footer {
-   max-width: 88%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
 
-.footer-top {
-  font-size: 32px;
-  color: #f1f1f1;
-  margin-right: 44.5rem;
-}
-
-.footer-paragraph {
-  font-size: 17px;
-  font-weight: 400;
-  color: #b5b5b5;
-  margin-right: 35.4rem;
-}
-
-
-.footer-socials{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.mail {
-  border-radius: 8px;
-  background: #333333;
-  outline: 2px solid #b5b5b5;
-  cursor: pointer;
-  margin-right: 52.3rem;
-}
-
-
-@media only screen and (max-width:790px) {
+@media only screen and (max-width:990px) {
   .socials {
     margin-right: 6.3rem;
   }
@@ -780,20 +741,19 @@ h1{
     font-size: 0.67rem;
   }
 
-  .rocket {
-    margin-left: -0.10rem;
-    margin: 1.1rem;
-  }
 
    .about-section {
     background: #000;
     border: 100px solid #000;
     border-radius: 12px;
-    width: 10%;
-    height: 40px;
-    margin-right: 42.4rem;
+    width: 7.5%;
+    height: 120px;
+    margin-left: 0.33rem;
     margin-top: 2.2rem;
     outline: 2px solid #b5b5b5;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
    }
 
  
@@ -804,9 +764,8 @@ h1{
 
   .paragraph-0 {
     font-size: 0.67rem;
-    word-break: break-all;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: space-around;
     align-items: center;
   }
   
@@ -814,6 +773,52 @@ h1{
   .skills-0 {
     font-size: 0.67rem;
     font-weight: 800;
+  }
+
+
+  .project-card {
+     border-radius: 0.5rem;
+     background: #0f0f0f;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     overflow: hidden;
+     height: 7.2rem;
+     width: 8.3rem;
+     margin: 3rem;
+  }
+
+  .project-card h4 {
+    font-size: .34rem;
+    font-weight: 800;
+    margin-top: .1rem;
+  }
+
+  .project-card img {
+    width: 10vh;
+    height: 10vh;
+    margin-top: -2.3rem;
+  }
+
+   .project-card-1 {
+     border-radius: 0.5rem;
+     background: #0f0f0f;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     overflow: hidden;
+     height: 7.2rem;
+     width: 8.3rem;
+   }
+
+
+  .project-card-1 h4 {
+    font-size: .34rem;
+    font-weight: 800;
+    margin-top: .1rem;
+  } 
+
+  .project-image-1 img {
+    width: 10vh;
+    height: 5vh;
   }
 
   .project-0 {
@@ -830,4 +835,6 @@ h1{
    .project-card-1 {
     margin-left: 24.3rem;
    }
+
+
 }
