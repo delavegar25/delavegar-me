@@ -540,7 +540,7 @@ h1{
   border-radius: 8px;
   background: #333333;
   outline: 2px solid #b5b5b5;
-  margin: .98rem;
+  margin: .91rem;
 }
 
 
@@ -659,6 +659,8 @@ h1{
   transition: all 5s ease-in-out;
   overflow: hidden;
   margin: 2rem;
+  margin-left: 25.5rem;
+  margin-top: -21.3rem;
 }
 
 .project-card-1:focus {
@@ -747,7 +749,7 @@ h1{
     border: 100px solid #000;
     border-radius: 12px;
     width: 7.5%;
-    height: 120px;
+    height: 130px;
     margin-left: 0.33rem;
     margin-top: 2.2rem;
     outline: 2px solid #b5b5b5;
@@ -784,7 +786,7 @@ h1{
      overflow: hidden;
      height: 7.2rem;
      width: 8.3rem;
-     margin: 3rem;
+     margin: 0.65em;
   }
 
   .project-card h4 {
@@ -807,6 +809,7 @@ h1{
      overflow: hidden;
      height: 7.2rem;
      width: 8.3rem;
+     margin-top: -8.6rem;
    }
 
 
