@@ -978,3 +978,19 @@ h1{
 
 
 }
+
+
+
+@media only screen and (max-width: 320px){
+  .skills-0 {
+    margin-left: 9.7rem;
+  }
+
+  .javascript-icon {
+    margin-left: 7.8rem;
+  }
+
+  .project-card {
+    height: 12rem;
+  }  
+}
