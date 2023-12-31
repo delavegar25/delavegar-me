@@ -566,12 +566,7 @@ h1{
   margin: 0.75rem;
 }
 
-.vue-icon {
-  border-radius: 8px;
-  background: #333333;
-  outline: 2px solid #b5b5b5;
-  margin: 0.77rem;
-}
+
 
 .project-0 {
   font-size: 35px;
@@ -775,9 +770,10 @@ h1{
   .skills-0 {
     font-size: 0.67rem;
     font-weight: 800;
+    margin-right: 20rem;
   }
 
-
+ 
   .project-card {
      border-radius: 0.5rem;
      background: #0f0f0f;
@@ -810,6 +806,7 @@ h1{
      height: 7.2rem;
      width: 8.3rem;
      margin-top: -8.6rem;
+     
    }
 
 
