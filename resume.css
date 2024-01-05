@@ -363,6 +363,10 @@ a {
   text-decoration: none;
 }
 
+ul li{
+  list-style-type: none;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -947,7 +951,9 @@ h1{
      width: 8.3rem;
      margin-top: -8.6rem;
      
-   }
+ }
+
+
 
 
   .project-card-1 h4 {
@@ -975,7 +981,6 @@ h1{
    .project-card-1 {
     margin-left: 24.3rem;
    }
-
 
 }
 
